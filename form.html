@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang= en>
+<meta charset="utf-8">
+<meta >
+<head>
+	<title>Contact Form</title>
+</head>
+<body>
+<form action="processform.php" method="POST">
+
+	<h3 style="color: rgb(111, 230, 226); line-height:0px;"> Product Tank Lagos</h3> 
+	<h6 style="line-height:0px;"> Kindly fill in your details and we would be in touch with you shortly</h6> 
+
+		<p>
+			<label for="first_name">First Name</label><br />
+			 <input type="text" name="first_name" placeholder="Enter Your First Name" />
+		</p>
+
+		<p>
+			<label for="last_name">Last Name</label><br />
+			 <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+		</p>
+
+		<p>
+			<label for="email">Email</label><br />
+			<input type="email" name="email" placeholder="Enter Your Email" required />
+		</p>
+
+<p>
+			<label for="tel">Phone Number</label><br />
+			<input type="tel" name="Phone Number" placeholder="Enter Your Phone Number" required />
+		</p>
+
+            <p>
+                <label for="town">Town</label><br />
+
+                 <select name="town">
+                    <option>Select Town</option>
+                    <option>Opebi</option>
+                    <option>Ojota</option>
+                    <option>Alausa</option>
+                    <option>Allen</option>
+                  </select>
+            </p>
+
+        <p>
+			<label for="gender">Gender</label><br />
+			<input type="radio" name="gender" /> Female 
+			<input type="radio" name="gender" /> Male
+                      
+		<p>
+			<label for="email">Your Message</label><br />
+			<textarea name="message" ></textarea>
+		</p>
+       
+        <p style="font-size: 5%">
+		
+	    <input type="checkbox" name="terms"  required />
+	    I am not a robot
+                  
+      </p>
+        
+         <button type="submit">Send Message</button>
+
+</p>
+</div>
+
+</body>
+</html>
